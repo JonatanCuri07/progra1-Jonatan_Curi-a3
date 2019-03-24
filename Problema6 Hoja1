@@ -1,0 +1,19 @@
+Algoritmo Problema6
+	
+	Definir icompra,porcentaje,idescuento,ipagar Como Real
+	
+	Escribir "Importe de la compra del producto"
+	Leer icompra
+	
+	Escribir "Porcentaje de descuento del producto"
+	Leer porcentaje
+	
+	idescuento <- icompra*(porcentaje/100)
+	ipagar <- icompra - idescuento
+	
+	Escribir "El importe le da compra es: ", icompra
+	
+	Escribir "El importe del descuento es: ", idescuento
+	
+	Escribir "El importe a pagar es: " ipagar
+FinAlgoritmo
