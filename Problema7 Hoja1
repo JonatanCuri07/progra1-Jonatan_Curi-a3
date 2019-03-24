@@ -1,0 +1,19 @@
+Algoritmo Problema7
+	
+	Definir sueldobase,HT,phoras,sueldobruto,sueldoneto como real
+	
+	Escribir "Horas trabajadas"
+	Leer HT
+	
+	Escribir "Paga por horas"
+	Leer phoras
+	
+	sueldobase<-HT*phoras
+	sueldobruto<-sueldobase*1.18
+	sueldoneto<-sueldobruto*0.88
+	
+	Escribir "Sueldo base: ", sueldobase
+	Escribir "Sueldo bruto: ", sueldobruto
+	Escribir "Sueldo neto: ", sueldoneto
+	
+FinAlgoritmo
