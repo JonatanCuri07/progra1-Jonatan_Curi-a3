@@ -1,0 +1,27 @@
+Algoritmo Problema8
+	
+	Definir sueldobruto,sueldoneto,descuentoEss,descuentoAFP,descuentoT,ht,th como real
+	
+	Escribir "Horas Trabajadas : "
+	Leer ht
+	
+	Escribir "Tarifa Horario : "
+	Leer th
+	
+	sueldobruto=ht*th
+	sueldoneto=sueldobruto-descuentoT
+	descuentoEss=sueldobruto*0.09
+	descuentoAFP=sueldobruto*0.115
+	descuentoT=descuentoAFP+descuentoEss
+	
+	Escribir "Sueldo Bruto " , sueldobruto
+	
+	Escribir "Sueldo Neto " , sueldoneto
+	
+	Escribir "Descuento de Essalud " , descuentoEss
+	
+	Escribir "Descuento de AFP " , descuentoAFP
+	
+	Escribir "Descuento Total " , descuentoT
+	
+FinAlgoritmo
