@@ -8,9 +8,7 @@ Algoritmo Problema5
 	Escribir "Porcentaje a ganar"
 	Leer porcentaje
 	
-	Escribir "Precio de venta"
-	
 	pventa <- pcompra*(1+(porcentaje/100))
 	
-	Escribir  pventa
+	Escribir "Precio de venta " , pventa
 FinAlgoritmo
