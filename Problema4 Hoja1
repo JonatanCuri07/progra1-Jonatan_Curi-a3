@@ -1,0 +1,23 @@
+Proceso Problema4
+	
+	Definir Ac1,Ac2,Ac3,ganancia,act Como Real
+	
+	Escribir "Acciones del socio 1"
+	Leer Ac1
+	
+	Escribir "Acciones del socio 2"
+	Leer Ac2
+	
+	Escribir "Acciones del socio 3"
+	Leer Ac3
+	
+	act <- Ac1+Ac2+Ac3
+	
+	Escribir "Ganancia en un año"
+	Leer ganancia
+	
+	Escribir "Ganancia del socio 1: " (Ac1/act)*ganancia
+	Escribir "Ganancia del socio 2: " (Ac2/act)*ganancia
+	Escribir "Ganancia del socio 3: " (Ac3/act)*ganancia
+	
+FinProceso
