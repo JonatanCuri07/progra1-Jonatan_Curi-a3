@@ -1,0 +1,54 @@
+Algoritmo sin_titulo
+	Definir A,B,C como real
+	
+	Escribir "El Valor de A"
+	Leer A
+	
+	Escribir "El Valor de B"
+	Leer B
+	
+	Escribir "El Valor de C"
+	Leer C
+	
+	Si (A>C)&(A>B) Entonces
+		may=A
+		Si B>C Entonces
+			inter=B
+			men=C
+		SiNo
+			inter=C
+			men=B
+		Fin Si
+	SiNo
+		men=A
+	FinSi
+	Si (B>A)&(B>C) Entonces
+		may=B
+		Si A>C Entonces
+			inter=A
+			men=C
+		SiNo
+			inter=C
+			men=A
+		Fin Si
+	SiNo
+		men=B
+	FinSi
+	Si (C>A)&(C>B) Entonces
+		may=C
+		Si A>B Entonces
+			inter=A
+			men=B
+		SiNo
+			inter=B
+			men=A
+		Fin Si
+	SiNo
+		men=C
+	FinSi
+	
+	Escribir "MAYOR : ",may
+	Escribir "INTERMEDIO : ",inter
+	Escribir "MENOR : ",men
+	
+FinAlgoritmo
