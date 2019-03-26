@@ -1,0 +1,19 @@
+Algoritmo Problema5
+	Definir ejeX,ejeY,parOrdenado Como real
+	
+	Escribir "Eje de las abscisas"
+	Leer ejeX
+	
+	Escribir "Eje de las ordenadas"
+	Leer ejeY
+	
+	parOrdenado=(ejeX^2)+(ejeY^2)
+	
+	Si parOrdenado<=25 Entonces
+		
+		Escribir "Pertenece a la circunferencia"
+	SiNo
+		Escribir "No pertenece a la circunferencia"
+		
+	FinSi
+FinAlgoritmo
