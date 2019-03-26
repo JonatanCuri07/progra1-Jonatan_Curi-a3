@@ -1,0 +1,17 @@
+Algoritmo Problema3
+	Definir h,m,s,nuevah Como Entero
+	
+	Escribir "Horas"
+	Leer h
+	
+	Escribir "Minutos"
+	Leer m
+	
+	Escribir "Segundos"
+	Leer s
+	
+	nuevah=trunc((h+((m+((s+1)/60))/60)))
+	
+	Escribir "Nueva Hora : ",nuevah
+	
+FinAlgoritmo
