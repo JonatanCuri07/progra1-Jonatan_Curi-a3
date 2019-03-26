@@ -1,0 +1,17 @@
+Algoritmo Problema1
+	Definir cantcinco,cantdos,cantuno,Cant como entero
+	
+	Escribir  "Cantidad de monedas"
+	Leer Cant
+	//Restriccion C>0
+	cantcinco=trunc(Cant/5)
+	cantdos=trunc((Cant%5)/2)
+	cantuno=trunc((Cant%5)%2)
+	
+	Escribir "Cantidad de monedas de cinco : " , cantcinco
+	
+	Escribir "Cantidad de monedas de 2 : " , cantdos
+	
+	Escribir "Cantidad de monedas de 1 : " , cantuno
+	
+FinAlgoritmo
