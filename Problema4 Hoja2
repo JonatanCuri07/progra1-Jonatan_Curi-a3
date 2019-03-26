@@ -1,0 +1,17 @@
+Algoritmo Problema4 
+	definir rad,G,M,S como real
+		
+		escribir "dame el angulo en radianes"
+		leer rad
+		
+		G=trunc(rad*180/pi)
+		M=trunc(((rad*180/pi)-G)*60)
+		S=(((rad*180/pi)-G)*60)-M
+		S=trunc(S)
+		
+		Escribir "entonces los grados sexagesimales son : ", G
+		
+		Escribir "entonces los minutos sexagesimales son : ",M
+		
+		Escribir "entonces los segundos sexagesimales son : ",S
+FinAlgoritmo
