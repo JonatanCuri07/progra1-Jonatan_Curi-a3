@@ -1,0 +1,15 @@
+Algoritmo Problema10
+	
+	Definir t,d,v Como Real
+	
+	Escribir "Velocidad : "
+	Leer v
+	
+	Escribir "Distancia : "
+	Leer d
+	
+	t=d/v
+	
+	Escribir "Tiempo : " , t
+	
+FinAlgoritmo
