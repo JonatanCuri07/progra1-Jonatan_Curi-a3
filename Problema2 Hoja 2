@@ -1,0 +1,16 @@
+Algoritmo Problema2
+	
+	Definir t,horas,minutos,segundos como real
+	
+	Escribir "Hora expresada en segundos : "
+	Leer t
+	
+	horas=trunc(t/3600)
+	minutos=trunc((t%3600)/60)
+	segundos=trunc(t%60)
+	
+	Escribir "Horas : ", horas
+	Escribir "Minutos : ", minutos
+	Escribir "Segundos : ", segundos
+	
+FinAlgoritmo
